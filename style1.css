@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(116, 161, 161);
+    overflow: hidden;
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(160, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main h1{
+    color:rgb(116, 161, 161);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 30px;
+    font-size: 200px;
+    position: absolute;
+    animation: backgroundText 2s forwards;
+    transition: all ease-in 0.2s;
+
+}
+@keyframes backgroundText{
+    from{
+        transform: translateX(-1000px);
+    }
+}
+#plane{
+    position: absolute;
+    rotate: -10deg;
+    width: 500px;
+    height: 500px;
+    animation: plane 2s forwards;
+    transition: all ease-in 0.2s;
+
+}
+@keyframes plane{
+    from{
+        transform: translateX(-1000px);
+    }
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+}
+.hero nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    justify-content: space-between;
+    animation: navbar 2s forwards ;
+}
+@keyframes navbar{
+    from{
+        transform: translateY(-100px);
+    }
+}
+.hero nav ul{
+    display: flex;
+    align-items: center;
+    gap: 25px; ;
+
+}
+.hero nav ul li{
+    list-style: none;
+}
+ul li:hover {
+cursor: pointer;
+transition: all ease-in 0.15s;
+color: whitesmoke;
+scale: 1.15;
+}
+.hero h1{
+    font-size: 30px;
+    position: static;
+}
+footer{
+   width: 100vw;
+   padding: 25px 100px;
+   position: absolute; 
+   bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.hero button {
+    padding: 6px 25px;
+    background-color: whitesmoke;
+    color: #2F1C15;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(116, 161, 161);
+    color: whitesmoke;
+    transition: all ease-in 0.15s;
+}

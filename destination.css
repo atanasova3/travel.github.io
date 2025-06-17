@@ -1,0 +1,16 @@
+header{
+    background-color: rgb(160, 227, 227);
+  padding: 20px;
+  text-align: center;
+  color:rgb(116, 161, 161) ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+h1{
+    color: rgb(116, 161, 161);
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}

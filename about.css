@@ -1,0 +1,81 @@
+header {
+  background-color: rgb(160, 227, 227);
+  padding: 20px;
+  text-align: center;
+  color:rgb(116, 161, 161) ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fff;
+}
+
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+
+.section-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1e1e1e;
+  text-align: left;
+  line-height: 1.2;
+  position: relative;
+}
+
+.section-header .line {
+  display: inline-block;
+  width: 4px;
+  height: 60px;
+  background: rgb(116, 161, 161);
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+
+.text-cols {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+  padding-left: 40px;
+  text-align: left;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.icon-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
